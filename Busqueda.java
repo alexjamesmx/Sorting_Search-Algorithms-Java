@@ -13,7 +13,7 @@ public class Busqueda {
         int index = violenceMatch(stringTotal,stringBuscado);
         System.out.println("index:"+index);
         int[] arreglo1 = {3,23,54,546,1000};
-        System.out.println("=========================\nBUSCO LA PALABRA: '" + stringBuscado + "' \nen el string: '" + stringTotal + "' \n" + Ordenamiento.generaString(arreglo1) + " ESTE ES MI ARREGLO");
+        System.out.println("BUSCO LA PALABRA: '" + stringBuscado + "' \nen el string: '" + stringTotal + "' \n\n" + Ordenamiento.generaString(arreglo1) + " \nESTE ES MI ARREGLO");
         long tiempoInicial, tiempoFinal, tiempoTotal;
 
         tiempoInicial = System.nanoTime();
